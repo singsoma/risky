@@ -15,7 +15,7 @@ What is it?
 ===========
 
 risky is a little-endian RISC-V emulator written in C99,
-based on [Asami's book](https://github.com/d0iasm/rvemu-for-book).
+based on (Asami's book)[https://github.com/d0iasm/rvemu-for-book].
 
 It was built for learning purposes and is not intended to be used
 seriously.
@@ -37,6 +37,6 @@ And to install it:
 Running it
 ==========
 
-Run risky with a RISC-v assembly file to run it.
+Run risky with a RISC-V assembly file to run it.
 
 For more information refer to the manpage.
