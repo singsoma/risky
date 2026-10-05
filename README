@@ -1,0 +1,42 @@
+           88           88
+           ""           88
+                        88
+8b,dPPYba, 88 ,adPPYba, 88   ,d8 8b       d8
+88P'   "Y8 88 I8[    "" 88 ,a8"  `8b     d8'
+88         88  `"Y8ba,  8888[     `8b   d8'
+88         88 aa    ]8I 88`"Yba,   `8b,d8'
+88         88 `"YbbdP"' 88   `Y8a    Y88'
+                                     d8'
+                                    d8'    -- by Soma
+=====================================================
+
+
+What is it?
+===========
+
+risky is a little-endian RISC-V emulator written in C99,
+based on [Asami's book](https://github.com/d0iasm/rvemu-for-book).
+
+It was built for learning purposes and is not intended to be used
+seriously.
+
+See LICENSE for license details.
+
+Building
+========
+
+To build risky you just need POSIX libc and make implementations.
+In most cases you can just do:
+
+	$ make
+
+And to install it:
+
+	# make install
+
+Running it
+==========
+
+Run risky with a RISC-v assembly file to run it.
+
+For more information refer to the manpage.
